@@ -1,0 +1,25 @@
+------------5.1------------------------
+SELECT *
+FROM Members
+WHERE email LIKE '%carrefour.com'
+
+------------5.2------------------------
+SELECT *
+FROM Companies
+WHERE name LIKE '%Sarl%'
+
+------------5.3------------------------
+SELECT m.*
+FROM Members m
+JOIN Companies c
+ON m.idCompany = c.idcompany
+WHERE c.status = 'on'
+
+------------5.4------------------------
+SELECT CONCAT(firstname, " ", lastname) as fullname
+FROM Members m
+
+------------5.5------------------------
+DELETE
+FROM Companies
+WHERE dateCreated < '2006-07-14 00:00:00'

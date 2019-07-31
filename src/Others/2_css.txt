@@ -1,0 +1,7 @@
+------------2.2------------------------
+    1 - les div qui ont le class 'class'
+    2 - les elements qui ont le class 'class' dans le div
+------------2.3------------------------
+text-decoration: none;
+------------2.4------------------------
+les elements possede cette style agir comme un element inline mais les avantage de bolck

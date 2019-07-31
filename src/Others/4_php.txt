@@ -1,0 +1,30 @@
+------------4.1------------------------
+BonjourBonsoirBonsoir
+------------4.2------------------------
+10
+------------4.3------------------------
+protected
+------------4.4------------------------
+une class qui possede des method commun et on peut juste defenir une méthode qui peut ecrire dans les class qui herite
+et on peut ecrire le method peut utiliser pour les class enfants, on peut pas instances le class abstract
+------------4.5------------------------
+oui
+------------4.6------------------------
+1
+------------4.7------------------------
+throw new \Exception(‘An error occurred’);
+------------4.8------------------------
+0-b
+------------4.9------------------------
+/**
+ * test methoad.
+ * @param float $x
+ * @return array
+ */
+function test(float $x)
+{
+    return [];
+}
+------------4.10------------------------
+ - on appelle le method statique comme self::(le nom de method)()
+ - on appelle le method de la class $this->(le nom de method)()
